@@ -1,0 +1,11 @@
+@relation TestArtAptitude
+
+@attribute art_1 numeric
+@attribute art_2 numeric
+@attribute art_3 numeric
+@attribute art_4 numeric
+@attribute total_art string
+
+@data
+
+1,1,1,1,?

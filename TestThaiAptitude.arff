@@ -1,0 +1,11 @@
+@relation TestThaiAptitude
+
+@attribute thai_term1 numeric
+@attribute thai_term2 numeric
+@attribute thai_term3 numeric
+@attribute thai_term4 numeric
+@attribute total_thai string
+
+@data
+
+1,1,1,1,?

@@ -1,0 +1,14 @@
+@relation Testmath-weka.filters.unsupervised.attribute.StringToNominal-Rlast
+
+@attribute grademath numeric
+@attribute math_term1 numeric
+@attribute math_term2 numeric
+@attribute math_term3 numeric
+@attribute math_term4 numeric
+@attribute math_term5 numeric
+@attribute total numeric
+@attribute onetmath {}
+
+@data
+
+4,4,4,4,4,4,4,?

@@ -1,0 +1,14 @@
+@relation TestThai-weka.filters.unsupervised.attribute.StringToNominal-Rlast
+
+@attribute gradethai numeric
+@attribute thai_term1 numeric
+@attribute thai_term2 numeric
+@attribute thai_term3 numeric
+@attribute thai_term4 numeric
+@attribute thai_term5 numeric
+@attribute tatal numeric
+@attribute onetthai {}
+
+@data
+
+4,4,4,4,4,4,4,?

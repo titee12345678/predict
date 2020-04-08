@@ -1,0 +1,11 @@
+@relation TestWorkAptitude-weka.filters.unsupervised.attribute.StringToNominal-Rlast
+
+@attribute work_1 numeric
+@attribute work_2 numeric
+@attribute work_3 numeric
+@attribute work_4 numeric
+@attribute total_work {}
+
+@data
+
+1,1,1,1,?

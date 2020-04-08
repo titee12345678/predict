@@ -1,0 +1,11 @@
+@relation TestEngAptitude
+
+@attribute eng_1 numeric
+@attribute eng_2 numeric
+@attribute eng_3 numeric
+@attribute eng_4 numeric
+@attribute total_eng string
+
+@data
+
+4,3,2,4,?

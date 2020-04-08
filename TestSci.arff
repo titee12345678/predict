@@ -1,0 +1,14 @@
+@relation TestSci
+
+@attribute gradesci numeric
+@attribute sci_term1 numeric
+@attribute sci_term2 numeric
+@attribute sci_term3 numeric
+@attribute sci_term4 numeric
+@attribute sci_term5 numeric
+@attribute total numeric
+@attribute onetsci string
+
+@data
+
+4,4,4,4,4,4,4,?

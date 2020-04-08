@@ -1,0 +1,11 @@
+@relation TestWorkAptitude
+
+@attribute work_1 numeric
+@attribute work_2 numeric
+@attribute work_3 numeric
+@attribute work_4 numeric
+@attribute total_work string
+
+@data
+
+1,1,1,1,?

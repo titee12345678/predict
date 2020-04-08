@@ -1,0 +1,15 @@
+@relation TestSportAptitude-weka.filters.unsupervised.attribute.StringToNominal-Rlast
+
+@attribute sport_1 numeric
+@attribute sport_2 numeric
+@attribute sport_3 numeric
+@attribute sport_4 numeric
+@attribute sport_ex1 numeric
+@attribute sport_ex2 numeric
+@attribute sport_ex3 numeric
+@attribute sport_ex4 numeric
+@attribute total_sport {}
+
+@data
+
+1,1,1,1,1,1,1,1,?

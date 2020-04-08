@@ -1,0 +1,14 @@
+@relation Testeng
+
+@attribute gradeeng numeric
+@attribute eng_term1 numeric
+@attribute eng_term2 numeric
+@attribute eng_term3 numeric
+@attribute eng_term4 numeric
+@attribute eng_term5 numeric
+@attribute total numeric
+@attribute oneteng string
+
+@data
+
+1,1,1,1,1,1,1,?

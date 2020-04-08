@@ -1,0 +1,15 @@
+@relation TestMathAptitude
+
+@attribute math_term1 numeric
+@attribute math_term2 numeric
+@attribute math_term3 numeric
+@attribute math_term4 numeric
+@attribute math_ex1 string
+@attribute math_ex2 numeric
+@attribute math_ex3 numeric
+@attribute math_ex4 numeric
+@attribute total_math string
+
+@data
+
+1,1,1,1,?,1,1,1,?

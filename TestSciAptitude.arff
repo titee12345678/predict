@@ -1,0 +1,11 @@
+@relation TestSciAptitude
+
+@attribute sci_term1 numeric
+@attribute sci_term2 numeric
+@attribute sci_term3 numeric
+@attribute sci_term4 numeric
+@attribute total_sci string
+
+@data
+
+1,1,1,1,?

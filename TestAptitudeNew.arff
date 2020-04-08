@@ -1,0 +1,15 @@
+@relation TestAptitude-weka.filters.unsupervised.attribute.StringToNominal-Rlast
+
+@attribute Thai numeric
+@attribute Math numeric
+@attribute Sci numeric
+@attribute Eng numeric
+@attribute Art numeric
+@attribute Social numeric
+@attribute Activity numeric
+@attribute Work numeric
+@attribute class {}
+
+@data
+
+4,3.6,4,4,4,3.4,4,4,?

@@ -1,0 +1,19 @@
+@relation TestSocialAptitude
+
+@attribute social_term1 numeric
+@attribute social_term2 string
+@attribute social_term3 numeric
+@attribute social_term4 numeric
+@attribute history_1 numeric
+@attribute history_2 numeric
+@attribute history_3 numeric
+@attribute history_4 numeric
+@attribute people_1 numeric
+@attribute people_2 numeric
+@attribute people_3 numeric
+@attribute people_4 numeric
+@attribute total_social string
+
+@data
+
+1,?,1,1,1,1,1,1,1,1,1,1,?
