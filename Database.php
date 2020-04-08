@@ -1,9 +1,9 @@
 <?php
     session_start();
-        $servername = "us-cdbr-iron-east-01.cleardb.net";
-        $username = "b010d93aa48454";
-        $password = "ceafc16b";
-        $dbname = "heroku_089e8d9a7502d18";
+        $servername = "us-cdbr-iron-east-04.cleardb.net";
+        $username = "bbe7a9b2c37b7d";
+        $password = "e7c2625f";
+        $dbname = "heroku_02daed7a46fa0e7";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
@@ -165,26 +165,5 @@
         mysqli_close($conn);
 
 
-    
-?>
-
-<?php         
-    }
-    if($type == "Deleteuser"){
-        
-        $id1 = $_GET['id1'];
-        $sqluser = "DELETE FROM model WHERE ID = '$id1'";
-        mysqli_query($conn, $sqluser);
-
-        ?>
-        <script>
-            window.location='Admin.php';
-        </script>
-    <?php
-    
-    }
-        mysqli_close($conn);
-
-
-    
+  
 ?>
