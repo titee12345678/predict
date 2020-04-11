@@ -63,7 +63,7 @@ $conn -> set_charset("utf8");
 </style>
 </head>
 
-<body  background="img/img/bg.jpg.jpg">
+<body  background="img/bg.jpg.jpg">
     
     
     <!-- Page Preloder -->
@@ -129,32 +129,93 @@ $conn -> set_charset("utf8");
                         <div class="form-group row">
                             <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาวิทยาศาสตร์ ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="sci11" required>
+                            <select name="sci11" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                              <!--  <input type="number" min = 0.0 max = 4.0 step=0.1 name="sci11" required>-->
                             </div>
+                            <hr width=96%  size=7></hr>
                         </div>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาวิทยาศาสตร์ ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="sci12" required>
+                            <select name="sci12" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+                              <!--  <input type="number" min = 0.0 max = 4.0 step=0.1 name="sci12" required>-->
                             </div>
+                            <hr width=96%  size=7></hr>
                         </div>
                          <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาวิทยาศาสตร์ ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="sci21" required>
+                            <select name="sci21" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>  
+                             <!-- <input type="number" min = 0.0 max = 4.0 step=0.1 name="sci21" required>-->
                             </div>
+                            <hr width=96%  size=7></hr>
                         </div>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาวิทยาศาสตร์ ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="sci22" required>
+                            <select name="sci22" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font> 
+                              <!--  <input type="number" min = 0.0 max = 4.0 step=0.1 name="sci22" required> -->
                             </div>
+                            <hr width=96%  size=7></hr>
                         </div>
                         <div class="form-group row">
                             <label for="lastname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาวิทยาศาสตร์ ชั้นมัธยมศึกษาปีที่ 3 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                            <input type="number" min = 0.0 max = 4.0 step=0.1 name="sci31" required>
+                            <select name="sci31" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font> 
+                            <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="sci31" required>-->
                             </div> 
+                            <hr width=96%  size=7></hr>
                         </div>
                         <!-- <div class="form-group row">
                             <label for="age" class="col-sm-7 col-form-label"><font size="4">เกรดเฉลี่ยวิชาวิทยาศาสตร์ 5 เทอม :</font></label>
@@ -165,8 +226,10 @@ $conn -> set_charset("utf8");
                         <div class="form-group row">
                             <label for="gender" class="col-sm-7 col-form-label"><font size="4">เกรดเฉลี่ยรวมทุกวิชา 5 เทอม:</font></label>
                             <div class="col-sm-5 text-right">
-                            <input type="number" min = 0.00 max = 4.00 step=0.01 name="total_grade" required>
+                            <input type="number" min = 0.00 max = 4.00 step=0.01 name="total_grade" style="width:118px;" required>
+                            <font color="#FF0000"><strong>*</strong></font>
                             </div> 
+                            <hr width=96%  size=7></hr>
                         </div>
                         <div class="form-group row">
                             <label for="gender" class="col-sm-9 col-form-label"><font size="4">เลือกโรงเรียนของท่าน:</font></label>
@@ -181,7 +244,7 @@ $conn -> set_charset("utf8");
                                             <?php } ?>
                                             <label class="label--desc">*</label>
             
-                                        </select>
+                                        </select><font color="#FF0000"><strong>*</strong></font>
                                         <div class="select-dropdown"></div>
                                         </div><!--copy -->
                         </div>

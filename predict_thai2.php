@@ -128,7 +128,6 @@ $conn -> set_charset("utf8");
                         <div class="form-group row">
                             <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาภาษาไทย ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-
                             <select name="thai11" required>
                                 <option value="">-- เลือกเกรด --</option>
                                 <option value="0">0</option>
@@ -143,6 +142,7 @@ $conn -> set_charset("utf8");
 
                                 <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="thai11" required>-->
                             </div>
+                            <hr width=96% size=7></hr>
                         </div>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาภาษาไทย ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 2:</font></label>
@@ -162,6 +162,7 @@ $conn -> set_charset("utf8");
 
                                 <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="thai12" required>-->
                             </div>
+                            <hr width=96% size=7></hr>
                         </div>
                          <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาภาษาไทย ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 1:</font></label>
@@ -181,6 +182,7 @@ $conn -> set_charset("utf8");
                             
                                 <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="thai21" required>-->
                             </div>
+                            <hr width=96% size=7></hr>
                         </div>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาภาษาไทย ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 2:</font></label>
@@ -200,6 +202,7 @@ $conn -> set_charset("utf8");
 
                                 <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="thai22" required>-->
                             </div>
+                            <hr width=96% size=7></hr>
                         </div>
                         <div class="form-group row">
                             <label for="lastname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาภาษาไทย ชั้นมัธยมศึกษาปีที่ 3 เทอมที่ 1:</font></label>
@@ -219,6 +222,7 @@ $conn -> set_charset("utf8");
 
                             <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="thai31" required>-->
                             </div> 
+                            <hr width=96% size=7></hr>
                         </div>
                         <!-- <div class="form-group row">
                             <label for="age" class="col-sm-7 col-form-label"><font size="4">เกรดเฉลี่ยวิชาภาษาไทย 5 เทอม :</font></label>
@@ -232,6 +236,7 @@ $conn -> set_charset("utf8");
                             <input type="number" min = 0.00 max = 4.00 step=0.01 name="total_grade" style="width:118px;" required>
                             <font color="#FF0000"><strong>*</strong></font>
                             </div> 
+                            <hr width=96%  size=7></hr>
                         </div>
                         <div class="form-group row">
                             <label for="gender" class="col-sm-9 col-form-label"><font size="4">เลือกแบบจำลอง:</font></label>

@@ -5,10 +5,10 @@
 ?>
 <!--copy -->
 <?php
-    $servername = "localhost";
-    $username = "root";
-    $password = "12345678";
-    $dbname = "predict_onet";
+    $servername = "us-cdbr-iron-east-01.cleardb.net";
+    $username = "b010d93aa48454";
+    $password = "ceafc16b"; 
+    $dbname = "heroku_089e8d9a7502d18";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
@@ -113,25 +113,80 @@
                         <div class="form-group row">
                             <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาภาษาไทย ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="thai11" required>
+
+                            <select name="thai11" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="thai11" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาภาษาไทย ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="thai12" required>
+
+                            <select name="thai12" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="thai12" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                          <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาภาษาไทย ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="thai21" required>
+
+                            <select name="thai21" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="thai21" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาภาษาไทย ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="thai22" required>
+
+                            <select name="thai22" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="thai22" required>-->
                             </div>
                         </div>
                     </div>
@@ -142,25 +197,80 @@
                         <div class="form-group row">
                             <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาศิลปะ ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="art11" required>
+
+                            <select name="art11" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="art11" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาศิลปะ ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="art12" required>
+
+                            <select name="art12" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="art12" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                          <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาศิลปะ ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="art21" required>
+
+                            <select name="art21" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="art21" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาศิลปะ ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="art22" required>
+
+                            <select name="art22" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="art22" required>-->
                             </div>
                         </div>
                     </div>
@@ -171,49 +281,160 @@
                         <div class="form-group row">
                             <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาคณิตศาสตร์ ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="math11" required>
+
+                            <select name="math11" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="math11" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="stu_id" class="col-sm-8 col-form-label"><font size="4">เกรดวิชาคณิตศาสตร์เพิ่มเติม ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 1:</font></label>
                             <div class="col-sm-4 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="mathexthai11" required>
+
+                            <select name="mathexthai11" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="mathexthai11" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาคณิตศาสตร์ ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="math12" required>
+
+                            <select name="math12" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="math12" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-8 col-form-label"><font size="4">เกรดวิชาคณิตศาสตร์เพิ่มเติม ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 2:</font></label>
                             <div class="col-sm-4 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="mathex12" required>
+
+                            <select name="mathex12" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="mathex12" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                          <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาคณิตศาสตร์ ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="math21" required>
+
+                            <select name="math21" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="math21" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-8 col-form-label"><font size="4">เกรดวิชาคณิตศาสตร์เพิ่มเติม ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 1:</font></label>
                             <div class="col-sm-4 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="mathex21" required>
+
+                            <select name="mathex21" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="mathex21" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาคณิตศาสตร์ ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="math22" required>
+
+                            <select name="math22" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="math22" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-8 col-form-label"><font size="4">เกรดวิชาคณิตศาสตร์เพิ่มเติม ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 2:</font></label>
                             <div class="col-sm-4 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="mathex22" required>
+
+                            <select name="mathex22" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="mathex22" required>-->
                             </div>
                         </div>
                     </div>
@@ -224,25 +445,80 @@
                         <div class="form-group row">
                             <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาวิทยาศาสตร์ ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="sci11" required>
+
+                            <select name="sci11" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="sci11" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาวิทยาศาสตร์ ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="sci12" required>
+
+                            <select name="sci12" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="sci12" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                          <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาวิทยาศาสตร์ ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="sci21" required>
+
+                            <select name="sci21" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="sci21" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาวิทยาศาสตร์ ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="sci22" required>
+
+                            <select name="sci22" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="sci22" required>-->
                             </div>
                         </div>
                     </div>
@@ -253,75 +529,242 @@
                         <div class="form-group row">
                             <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาสังคม ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="social11" required>
-                            </div>
-                            </div>
-                            <div class="form-group row">
-                            <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาประวัติศาสตร์ ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 1:</font></label>
-                            <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="history11" required>
-                            </div>
-                            </div>
-                            <div class="form-group row">
-                            <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาหน้าที่พลเมือง ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 1:</font></label>
-                            <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="people11" required>
+
+                            <select name="social11" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="social11" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
+                        <div class="form-group row">
+                            <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาประวัติศาสตร์ ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 1:</font></label>
+                            <div class="col-sm-5 text-right">
+
+                            <select name="history11" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="history11" required>-->
+                            </div>
+                        </div>
+                        <hr width=96% size=7></hr>
+                        <div class="form-group row">
+                            <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาหน้าที่พลเมือง ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 1:</font></label>
+                            <div class="col-sm-5 text-right">
+
+                            <select name="people11" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="people11" required>-->
+                            </div>
+                        </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาสังคม ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="thai12" required>
+
+                            <select name="social12" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="social12" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาประวัติศาสตร์ ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="history12" required>
+
+                            <select name="history12" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="history12" required>-->
                             </div>
-                            </div>
-                            <div class="form-group row">
+                        </div>
+                        <hr width=96% size=7></hr>
+                        <div class="form-group row">
                             <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาหน้าที่พลเมือง ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="people12" required>
+
+                            <select name="people12" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="people12" required>-->
                             </div>
-                            </div>
+                        </div>
+                        <hr width=96% size=7></hr>
                          <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาสังคม ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="social21" required>
-                            </div>
-                            </div>
-                            <div class="form-group row">
-                            <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาประวัติศาสตร์ ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 1:</font></label>
-                            <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="history21" required>
-                            </div>
-                            </div>
-                            <div class="form-group row">
-                            <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาหน้าที่พลเมือง ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 1:</font></label>
-                            <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="people21" required>
+
+                            <select name="social21" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="social21" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
+                        <div class="form-group row">
+                            <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาประวัติศาสตร์ ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 1:</font></label>
+                            <div class="col-sm-5 text-right">
+
+                            <select name="history21" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="history21" required>-->
+                            </div>
+                        </div>
+                        <hr width=96% size=7></hr>
+                        <div class="form-group row">
+                            <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาหน้าที่พลเมือง ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 1:</font></label>
+                            <div class="col-sm-5 text-right">
+
+                            <select name="people21" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="people21" required>-->
+                            </div>
+                        </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาสังคม ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="social22" required>
+
+                            <select name="social22" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="social22" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาประวัติศาสตร์ ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="history22" required>
+
+                            <select name="history22" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="history22" required>-->
                             </div>
-                            </div>
-                            <div class="form-group row">
+                        </div>
+                        <hr width=96% size=7></hr>
+                        <div class="form-group row">
                             <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาหน้าที่พลเมือง ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="people22" required>
+
+                            <select name="people22" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="people22" required>-->
                             </div>
-                            </div>
+                        </div>
                     </div>
                     <div class="card-header text-center">
                             <h4>เกรดวิชาพละศึกษา</h4>
@@ -330,49 +773,160 @@
                         <div class="form-group row">
                             <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาพละศึกษา ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="sport11" required>
+
+                            <select name="sport11" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="sport11" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="stu_id" class="col-sm-8 col-form-label"><font size="4">เกรดวิชาสุขศึกษา ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 1:</font></label>
                             <div class="col-sm-4 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="sportex11" required>
+
+                            <select name="sportex11" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="sportex11" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาพละศึกษา ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="sport12" required>
+
+                            <select name="sport12" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="sport12" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-8 col-form-label"><font size="4">เกรดวิชาสุขศึกษา ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 2:</font></label>
                             <div class="col-sm-4 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="sportex12" required>
+
+                            <select name="sportex12" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="sportex12" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                          <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาพละศึกษา ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="sport21" required>
+
+                            <select name="sport21" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="sport21" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-8 col-form-label"><font size="4">เกรดวิชาสุขศึกษา ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 1:</font></label>
                             <div class="col-sm-4 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="sportex21" required>
+
+                            <select name="sportex21" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="sportex21" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาพละศึกษา ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="sport22" required>
+
+                            <select name="sport22" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="sport22" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-8 col-form-label"><font size="4">เกรดวิชาสุขศึกษา ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 2:</font></label>
                             <div class="col-sm-4 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="sportex22" required>
+
+                            <select name="sportex22" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="sportex22" required>-->
                             </div>
                         </div>
                     </div>
@@ -383,25 +937,80 @@
                         <div class="form-group row">
                             <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาการงานอาชีพ ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="work11" required>
+
+                            <select name="work11" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="work11" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาการงานอาชีพ ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="work12" required>
+
+                            <select name="work12" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="work12" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                          <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาการงานอาชีพ ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="work21" required>
+
+                            <select name="work21" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="work21" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาการงานอาชีพ ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="work22" required>
+
+                            <select name="work22" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="work22" required>-->
                             </div>
                         </div>
                     </div>
@@ -412,25 +1021,80 @@
                         <div class="form-group row">
                             <label for="stu_id" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาภาษาอังกฤษ ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="eng11" required>
+
+                            <select name="eng11" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="eng11" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาภาษาอังกฤษ ชั้นมัธยมศึกษาปีที่ 1 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="eng12" required>
+
+                            <select name="eng12" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="eng12" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                          <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาภาษาอังกฤษ ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 1:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="eng21" required>
+
+                            <select name="eng21" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="eng21" required>-->
                             </div>
                         </div>
+                        <hr width=96% size=7></hr>
                         <div class="form-group row">
                             <label for="firstname" class="col-sm-7 col-form-label"><font size="4">เกรดวิชาภาษาอังกฤษ ชั้นมัธยมศึกษาปีที่ 2 เทอมที่ 2:</font></label>
                             <div class="col-sm-5 text-right">
-                                <input type="number" min = 0.0 max = 4.0 step=0.1 name="eng22" required>
+
+                            <select name="eng22" required>
+                                <option value="">-- เลือกเกรด --</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4">4</option>
+                            </select> <font color="#FF0000"><strong>*</strong></font>
+
+                                <!--<input type="number" min = 0.0 max = 4.0 step=0.1 name="eng22" required>-->
                             </div>
                         </div>
 
