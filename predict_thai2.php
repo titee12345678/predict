@@ -63,7 +63,7 @@ $conn -> set_charset("utf8");
     
 </head>
 
-<body  background="img/hero-slider/logo2.jpg">
+<body  background="img/bg.jpg">
     
     
     <!-- Page Preloder -->
