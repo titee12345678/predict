@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="css1/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css1/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css1/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
     
     <style>
     table, th, td 
@@ -95,7 +96,7 @@
                 
                 <br><h2>คุณมีความถนัด</h2> 
                 <br><h3>วิชาวิทยาศาสตร์ - วิชาคณิตศาสตร์</h3><br> 
-                <h3>ความเเม่นยำของการพยากรณ์ "<?php echo $_SESSION["error_pre"];?>%"</h3><br> 
+                <h3>ความเเม่นยำของการพยากรณ์ <?php echo $_SESSION["error_pre"];?>%</h3><br> 
                 <img src="img/feature/sci_math.png"  width="700">
                 <br>
 

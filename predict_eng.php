@@ -2,10 +2,10 @@
 <html lang="zxx">
 <?php
     session_start(); //นำไปใส่ทุกหน้าที่เเก้ Username
-    $servername = "us-cdbr-iron-east-04.cleardb.net";
-    $username = "bbe7a9b2c37b7d";
-    $password = "e7c2625f"; 
-    $dbname = "heroku_02daed7a46fa0e7";
+    $servername = "us-cdbr-iron-east-01.cleardb.net";
+    $username = "b010d93aa48454";
+    $password = "ceafc16b"; 
+    $dbname = "heroku_089e8d9a7502d18";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -53,6 +53,7 @@ $conn -> set_charset("utf8");
     <link rel="stylesheet" href="css1/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css1/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css1/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
     
     <style>
     table, th, td 

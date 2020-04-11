@@ -55,7 +55,7 @@
                                         <li><a href="index.html">หน้าแรก</a></li>
                                         <li><a href="#"> ชื่อผู้ใช้ <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="blog.html">ออกจากระบบ</a></li>
+                                                <li><a href="logout.php">ออกจากระบบ</a></li>
                                                
                                             </ul>
 
@@ -154,7 +154,7 @@
                 <div class="col-xl-3 col-md-6 col-lg-4">
                     <div class="single_department">
                         <div class="department_thumb">
-                        <a href="predict_math.php">
+                        <a href="predict_eng.php">
                             <img src="img/4.4.jpg" alt=""></a>
                         </div>
                         <div class="department_content">

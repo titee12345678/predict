@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="css1/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css1/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css1/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
     
     
 </head>

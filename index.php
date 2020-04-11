@@ -143,11 +143,12 @@
                 <div class="col-xl-4 col-md-6 col-lg-4">
                     <div class="single_department">
                         <div class="department_thumb">
-                            <img src="img/3.3.jpg" alt="">
+                        <a href="Input_Aptitude.php"><img src="img/3.3.jpg" alt=""></a> 
+                            
                         </div>
                         <div class="department_content">
-                            <h3><a href="#">พยากรณ์ความถนัด</a></h3>
-                            <p>พยากรณ์ความถนัดจากผลการเรียน 8 กลุ่มสาระ ตั้งแต่ชั้นมัธยมศึพกษาปีที่ 1 - ชั้นมัธยมศึกษาปีที่ 2 เพื่อเป็นแนวทางในการเลือกเรียนต่อในอนาคต</p>
+                            <h3><a href="Input_Aptitude.php">พยากรณ์ความถนัด</a></h3>
+                            <p>พยากรณ์ความถนัดจากผลการเรียน <br>8 กลุ่มสาระ ตั้งแต่ชั้นมัธยมศึกษาปีที่ 1 ถึง<br> ชั้นมัธยมศึกษาปีที่ 2 เพื่อเป็นแนวทางในการเลือกเรียนต่อในอนาคต</p>
                             
                         </div>
                     </div>
