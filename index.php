@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -112,17 +113,17 @@
 
     <!-- offers_area_start -->
     <div class="our_department_area">
-        <div class="container">
+        <div class="container1">
             
             <div class="row">
                 <div class="col-xl-4 col-md-6 col-lg-4">
                     <div class="single_department">
                         <div class="department_thumb">
-                            <a href="predict.php">   <img src="img/department/1.png" alt=""></a> 
+                            <a href="predict.php">   <img src="img/3.1.jpg" alt=""></a> 
                         </div>
                         <div class="department_content">
                             <h3><a href="predict.php">พยากรณ์คะแนน O-NET </a></h3>
-                            <p>พยากรณ์คะแนน O-NET ชั้นมัธยมศึกษาปีที่ 3 <br> ทั้ง 4 กลุ่มวิชา ภาษาไทย ภาษาอังกฤษ คณิตศาสตร์ วิทยาศาสตร์</p>
+                            <p>พยากรณ์คะแนน O-NET <br>ชั้นมัธยมศึกษาปีที่ 3 <br> ทั้ง 4 กลุ่มวิชา ภาษาไทย ภาษาอังกฤษ คณิตศาสตร์ วิทยาศาสตร์</p>
                             
                         </div>
                     </div>
@@ -130,7 +131,7 @@
                 <div class="col-xl-4 col-md-6 col-lg-4">
                     <div class="single_department">
                         <div class="department_thumb">
-                           <a href="Train_model.php"><img src="img/department/2.png" alt=""></a> 
+                           <a href="Train_model.php"><img src="img/3.2.jpg" alt=""></a> 
                         </div>
                         <div class="department_content">
                             <h3><a href="Train_model.php">สร้างแบบจำลอง</a></h3>
@@ -142,11 +143,11 @@
                 <div class="col-xl-4 col-md-6 col-lg-4">
                     <div class="single_department">
                         <div class="department_thumb">
-                            <img src="img/department/3.png" alt="">
+                            <img src="img/3.3.jpg" alt="">
                         </div>
                         <div class="department_content">
                             <h3><a href="#">พยากรณ์ความถนัด</a></h3>
-                            <p>พยากรณ์ความถนัดจากผลการเรียน 8 กลุ่มสาระ ตั้งแต่ชั้นมัธยมศึพกษาปีที่ 1 - ชั้นมัธยมศึพกษาปีที่ 2 เพื่อเป็นแนวทางในการเลือกเรียนต่อในอนาคต</p>
+                            <p>พยากรณ์ความถนัดจากผลการเรียน 8 กลุ่มสาระ ตั้งแต่ชั้นมัธยมศึพกษาปีที่ 1 - ชั้นมัธยมศึกษาปีที่ 2 เพื่อเป็นแนวทางในการเลือกเรียนต่อในอนาคต</p>
                             
                         </div>
                     </div>

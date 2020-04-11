@@ -15,10 +15,10 @@
 
 <?php
     session_start(); //นำไปใส่ทุกหน้าที่เเก้ Username
-    $servername = "us-cdbr-iron-east-04.cleardb.net";
-    $username = "bbe7a9b2c37b7d";
-    $password = "e7c2625f"; 
-    $dbname = "heroku_02daed7a46fa0e7";
+    $servername = "us-cdbr-iron-east-01.cleardb.net";
+    $username = "b010d93aa48454";
+    $password = "ceafc16b"; 
+    $dbname = "heroku_089e8d9a7502d18";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

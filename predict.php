@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -81,15 +82,14 @@
     <!-- slider_area_start -->
     <div class="slider_area">
         
-            <div class="single_slider  d-flex align-items-center slider_bg_2">
+            <div class="single_slider  d-flex align-items-center slider_bg_1">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text ">
-                                <h3> <span>Health care</span> <br>
-                                    For Hole Family </h3>
-                                <p>In healthcare sector, service excellence is the facility of <br> the hospital as
-                                    healthcare service provider to consistently.</p>
+                                <h3>การพยากรณ์คะแนน O-NET </h3> 
+                                <p>พยากรณ์คะแนนสำหรับชั้นมัธยมศึกษาปีที่ 3 จากผลการเรียน 5 เทอม<br> โดยมีทั้งหมด 4 วิชาได้แก่
+                                    วิชาภาษาไทย วิชาวิทยาศาสตร์ วิชาคณิตศาสตร์ วิชาภาษาอังกฤษ <br> "แบบจำลองต้นแบบ" ได้มาจากโรงเรียนแห่งหนึ่งในจังหวัดปราจีนบุรี<br> หากต้องการความแม่นยำที่เหมาะสมกับโรงเรียนของท่าน กรุณาเลือกเมนู "สร้างแบบจำลอง" </p>
                                 
                             </div>
                         </div>
@@ -115,7 +115,7 @@
                 <div class="col-xl-3 col-md-7 col-lg-4">
                     <div class="single_department">
                         <div class="department_thumb">
-                            <a href="predict_thai2.php">   <img src="img/department/1.png" alt=""></a> 
+                            <a href="predict_thai2.php">   <img src="img/4.1.jpg" alt=""></a> 
                         </div>
                         <div class="department_content">
                             <h3><a href="predict_thai2.php">วิชาภาษาไทย</a></h3>
@@ -129,7 +129,7 @@
                 <div class="col-xl-3 col-md-6 col-lg-4">
                     <div class="single_department">
                         <div class="department_thumb">
-                           <a href="predict_sci.php"><img src="img/department/2.png" alt=""></a> 
+                           <a href="predict_sci.php"><img src="img/4.2.jpg" alt=""></a> 
                         </div>
                         <div class="department_content">
                         <h3><a href="predict_sci.php">วิชาวิทยาศาสตร์</a></h3>
@@ -143,7 +143,7 @@
                     <div class="single_department">
                         <div class="department_thumb">
                         <a href="predict_math.php">
-                            <img src="img/department/3.png" alt=""></a> 
+                            <img src="img/4.3.jpg" alt=""></a> 
                         </div>
                         <div class="department_content">
                             <h3><a href="predict_math.php">วิชาคณิตศาสตร์</a></h3>
@@ -155,7 +155,7 @@
                     <div class="single_department">
                         <div class="department_thumb">
                         <a href="predict_math.php">
-                            <img src="img/department/3.png" alt=""></a>
+                            <img src="img/4.4.jpg" alt=""></a>
                         </div>
                         <div class="department_content">
                         <h3><a href="predict_eng.php">วิชาภาษาอังกฤษ</a></h3>

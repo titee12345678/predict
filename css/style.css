@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Sarabun:200,200i,300,300i,400,400i,500,500i,600,600i,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Sarabun:200,200i,300,300i,400,400i,500,500i,600,600i,700&display=swap");
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_extend.scss */
 .flex-center-start {
   display: -webkit-box;
@@ -21,7 +21,7 @@
 /* 1. Theme default css */
 /* line 5, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/theme-default.scss */
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Sarabun", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -75,7 +75,7 @@ button {
 
 /* line 41, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Sarabun", sans-serif;
   color: #1F1F1F;
 }
 
@@ -111,7 +111,7 @@ p {
   line-height: 28px;
   color: #4D4D4D;
   margin-bottom: 13px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sarabun", sans-serif;
 }
 
 /* line 70, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/theme-default.scss */
@@ -386,7 +386,7 @@ h3 {
   color: #131313;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sarabun", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -431,7 +431,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sarabun", sans-serif;
   font-size: 15px;
   font-weight: 500;
   border: 0;
@@ -471,7 +471,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 9px 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sarabun", sans-serif;
   font-size: 15px;
   font-weight: 400;
   border: 0;
@@ -511,7 +511,7 @@ h3 {
   color: #5DB2FF !important;
   display: inline-block;
   padding: 9px 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sarabun", sans-serif;
   font-size: 15px;
   font-weight: 400;
   border: 0;
@@ -551,7 +551,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 18px 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sarabun", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -842,7 +842,7 @@ h3 {
 /* line 15, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
 .header-area .main-header-area {
   padding: 10px 0;
-  background: #a3e5fc;
+  background: #8EE0FD;
 }
 
 /* line 31, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
@@ -913,6 +913,8 @@ h3 {
   color: #A8A7A0;
   margin: 0 10px;
   font-size: 15px;
+  font-family: "Sarabun", sans-serif;
+  
 }
 
 /* line 70, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
@@ -945,6 +947,7 @@ h3 {
   padding: 12px 26px;
   font-size: 14px;
   font-weight: 400;
+  font-family: "Sarabun", sans-serif;
   border: 1px solid transparent;
   color: #fff;
   -webkit-border-radius: 4px;
@@ -987,7 +990,7 @@ h3 {
   font-weight: 500;
   display: inline-block;
   padding: 0px 0px 0px 0px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sarabun", sans-serif;
   position: relative;
   text-transform: capitalize;
 }
@@ -1236,7 +1239,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/header2.jpg);
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_slider.scss */
@@ -1262,7 +1265,7 @@ h3 {
 /* line 17, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
   color: #1F1F1F;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sarabun", sans-serif;
   font-size: 48px;
   text-transform: capitalize;
   letter-spacing: 2px;
@@ -2212,7 +2215,7 @@ h3 {
 
 /* line 397, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_offers.scss */
 .gj-picker-md {
-  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-family: "Roboto","Helvetica","Sarabun",sans-serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: .04em;
@@ -2579,7 +2582,7 @@ h3 {
   cursor: pointer;
   display: block;
   float: left;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sarabun", sans-serif;
   font-weight: normal;
   width: 100% !important;
   /* height: 42px; */
@@ -2679,7 +2682,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_department.scss */
 .our_department_area {
-  background: #F5FBFF;
+  background: #E0FFFF;
   padding-top: 40px;
   padding-bottom: 20px;
 }
