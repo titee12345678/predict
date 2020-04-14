@@ -79,7 +79,7 @@ $conn -> set_charset("utf8");
     }
 </style>
 </head>
-    <body background="img/registerbg.jpg">
+    <body background="img/registerbg2.jpg">
     <header class="header-section">
         <div class="container-fluid">
             <div class="logo">
@@ -121,7 +121,7 @@ $conn -> set_charset("utf8");
     <br>
     <div class="container">
         <div class="row">
-            <div class="col-md-12 mx-auto" style="max-width: 800px; top :130px">
+            <div class="col-md-12 mx-auto" style="max-width: 800px; top :120px">
                 <div class="card bg-light border-dark mb-3 text-center">
                 <form action="Train_model-1.php" method="post" enctype="multipart/form-data">
                 
@@ -151,8 +151,8 @@ $conn -> set_charset("utf8");
 
                     
                     <div class="card-body text-center">
-                        <div class="form-group row text-center">
-                            <div class="custom-file">
+                        <div class="form-group row text-center" >
+                            <div class="custom-file" style="width:97%;">
                                 <input type="file" class="custom-file-input" id="filename" name="filename">
                                 <label class="custom-file-label" for="customFile">เลือกไฟล์</label>
                                 
@@ -168,24 +168,29 @@ $conn -> set_charset("utf8");
                         </div>
                         <br>
                         <div class="form-group row text-center">
-                        <label for="firstname" class="col-form-label"><font size="4">ชื่อโมเดล :</font></label>
-                            <div class="col-sm-1">
-                                <input type="text" name = "modelName" required>
+                        <label for="firstname" class="col-form-label"><font size="4">ชื่อโมเดล  :</font></label>
+                            <div class="col-sm-5">
+                                <input type="text" class="form-control form-control" name = "modelName" required>
                             </div>
-                            <label for="firstname" class="col-sm-9 col-form-label"><font size="4">กรุณาตั้งชื่อเป็นภาษาอังกฤษ</font></label> 
+                            <label for="firstname" class="col-sm-4 col-form-label"><font size="4" color="#FF0000">กรุณาตั้งชื่อเป็นภาษาอังกฤษ</font></label> 
                         </div>
                         <br>
                         <div class="form-group row text-center">
-                        ชื่อวิชา 
-                            <select name="Subject" class="custom-select ">
-                                <option disabled="disabled" selected="selected">เลือกวิชา</option>
-                                <option>ภาษาไทย</option>
-                                <option>ภาษาอังกฤษ</option>
-                                <option>คณิตศาสตร์</option>
-                                <option>วิทยาศาสตร์</option>
-                            </select>
+                            <div class="input-group">
+                                <label for="firstname" class="col-form-label"><font size="4">ชื่อวิชา  :  </font></label> 
+                                <div class="col-sm-11">
+                                    <select name="Subject" class="custom-select">
+                                        <option disabled="disabled" selected="selected">เลือกวิชา</option>
+                                        <option>ภาษาไทย</option>
+                                        <option>ภาษาอังกฤษ</option>
+                                        <option>คณิตศาสตร์</option>
+                                        <option>วิทยาศาสตร์</option>
+                                    </select>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <br>
                     <div class="card-footer text-center">
 						<button type="submit" name="submit" class="btn btn-success" value="submit"> สร้างแบบจำลอง </button>
                     </div>

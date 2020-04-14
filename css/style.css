@@ -845,6 +845,13 @@ h3 {
   background: #8EE0FD;
 }
 
+.header-area1 .main-header-area1 {
+  padding: 10px 0;
+  background: #82cfeb;
+}
+
+
+
 /* line 31, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
 .header-area .main-header-area .logo-img {
   text-align: center;

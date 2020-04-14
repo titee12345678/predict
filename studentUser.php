@@ -51,7 +51,7 @@
     }
 </style>
 </head>
-    <body background="img/feature/129.png">
+    <body background="img/registerbg2.jpg">
     <header class="header-section">
         <div class="container-fluid">
             <div class="logo">
