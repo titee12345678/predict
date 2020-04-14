@@ -25,7 +25,7 @@
     <link href="css1/main.css" rel="stylesheet" media="all">
 </head>
 
-<body background="img/registerbg.jpg">
+<body background="img/registerbg2.jpg">
     
         <div class="wrapper wrapper--w790">
             <br> <br> <br>

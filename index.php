@@ -1,6 +1,11 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 
+<?php
+    session_start(); //นำไปใส่ทุกหน้าที่เเก้ Userna
+    $Status1 = $_SESSION["Status"];
+?>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -52,14 +57,49 @@
                                 <nav>
                                     <ul id="navigation">
                                         
-                                        <li><a class="active" href="index.php">หน้าแรก</a></li>
-
+                                        <li><a class="active" href="./index.php">หน้าแรก</a></li>
+                                        <?php
+                                          if(!(isset($_SESSION["FirstName"]))){
+                                        ?>
+                                        
                                         <li><a  href="register.php">สมัครสมาชิก</a></li>
+
+                                        <?php
+                                         }
+                                        ?>
+
+                                      <?php
+                                         if($Status1 == "บุคลากรภายในโรงเรียน" ){
+                                      ?>
+                                      <li><a href="studentUser.php">เพิ่มผู้ใช้</a></li>
+                            
+                                     <?php
+                                       }
+                                     ?>
+
+
+                            <?php
+                    
+                                if(isset($_SESSION["FirstName"])){//แก้ทุกหน้า username
+                            ?>
+                            <li><a href="index.php"><?php echo $_SESSION["FirstName"] ?> <i class="ti-angle-down"></i> </a>
+                                <ul class="submenu">
+                                    <li><a href="logout.php">ลงชื่อออก</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <?php
+                                }
+                            ?>
 
                                 
                                     </ul>
                                 </nav>
                               
+
+
+
+
                             </div>
                             
                         </div>
@@ -90,7 +130,8 @@
                             <div class="slider_text ">
                                 <h3> การพยากรณ์คะแนน O-NET<br>และสร้างแบบจำลองโรงเรียนของท่าน <br>
                                      </h3>
-                                <p>พยากรณ์คะแนน O-NET ชั้นมัธยมศึกษาปีที่ 3 และสร้างแบบจำลองสำหรับการพยากรณ์ <br>
+                                <p>เว็บไชค์สำหรับพยากรณ์คะแนน O-NET ชั้นมัธยมศึกษาปีที่ 3 และสร้างแบบจำลองสำหรับการพยากรณ์ <br>
+                                โรงเรียนของท่านและพยากรณ์ความถนัดจาก 8 กลุ่มวิชา 
                                     </p>
                                 
                             </div>
@@ -134,8 +175,8 @@
                            <a href="Train_model.php"><img src="img/3.2.jpg" alt=""></a> 
                         </div>
                         <div class="department_content">
-                            <h3><a href="Train_model.php">สร้างแบบจำลอง</a></h3>
-                            <p>สร้างแบบจำลองโรงเรียนของท่านเพื่อพยากรณ์คะแนน O-NET ชั้นมัธยมศึกษาปีที่ 3 ทั้ง 4 กลุ่มวิชา ภาษาไทย ภาษาอังกฤษ คณิตศาสตร์ วิทยาศาสตร์</p>
+                            <h3><a href="Train_model.php">สร้างแบบจำลอง <br>(สำหรับบุคลากรเท่านั้น)</a></h3>
+                            <p>สร้างแบบจำลองโรงเรียนของท่านเพื่อพยากรณ์คะแนน O-NET ชั้นมัธยมศึกษาปีที่ 3 ให้มีความแม่นยำสำหรับโรงเรียนของท่าน </p>
                             
                         </div>
                     </div>

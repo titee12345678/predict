@@ -37,7 +37,7 @@
     
 </head>
 
-<body  background="img/about1.jpg">
+<body  background="img/registerbg2.jpg">
     
     
     <!-- Page Preloder -->

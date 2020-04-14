@@ -54,7 +54,7 @@
     
 </head>
 
-<body   background="img/about1.jpg" > 
+<body   background="img/registerbg2.jpg" > 
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
@@ -132,7 +132,7 @@
                 <div class="card bg-light border-dark mb-3">
                 <form action="resultthai.php" method="post">
                     <div class="card-header text-center">
-                        <h1>เพิ่มข้อมูลผู้ใช้สำเร็จ</h1>
+                        <h2>เพิ่มข้อมูลผู้ใช้สำเร็จ</h2>
 
                        
                     </div>

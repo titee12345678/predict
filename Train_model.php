@@ -9,8 +9,6 @@
     </script>
 <?php
    }
-   
-   
 ?>
 
 <?php
@@ -144,7 +142,7 @@ $conn -> set_charset("utf8");
                         @readfile("$path/$download");
                         } else {
             
-                        echo "<h5> กรุณาดาวน์โหลดแบบฟอร์มสำหรับกรอกข้อมูลแต่ละวิชา <a href=https://drive.google.com/u/0/uc?id=1dxmTebLAoybtyrc6I6LyxHdoWgKdWhsh&export=download?download=https://drive.google.com/u/0/uc?id=1dxmTebLAoybtyrc6I6LyxHdoWgKdWhsh&export=download>ดาวน์โหลด</a></h5> ";
+                        echo "<h5> กรุณาดาวน์โหลดคู่มือการใช้งานและแบบฟอร์มสำหรับกรอกข้อมูลแต่ละวิชา <a href=https://drive.google.com/u/0/uc?id=1dxmTebLAoybtyrc6I6LyxHdoWgKdWhsh&export=download?download=https://drive.google.com/u/0/uc?id=1dxmTebLAoybtyrc6I6LyxHdoWgKdWhsh&export=download>ดาวน์โหลด</a></h5> ";
                         }
                         ?> 
                     </div>
@@ -157,6 +155,15 @@ $conn -> set_charset("utf8");
                             <div class="custom-file">
                                 <input type="file" class="custom-file-input" id="filename" name="filename">
                                 <label class="custom-file-label" for="customFile">เลือกไฟล์</label>
+                                
+                                <script>
+                                    // Add the following code if you want the name of the file appear on select
+                                    $(".custom-file-input").on("change", function() {
+                                    var fileName = $(this).val().split("\\").pop();
+                                    $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+                                    });
+                                </script>
+                                
                             </div>
                         </div>
                         <br>

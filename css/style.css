@@ -984,8 +984,8 @@ h3 {
 
 /* line 118, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  color: #727272;
-  font-size: 15px;
+  color: #0f0f0f;
+  font-size: 28px;
   text-transform: capitalize;
   font-weight: 500;
   display: inline-block;

@@ -332,7 +332,7 @@ ol {
 -----------------------*/
 
 .header-section {
-	padding-top: 40px;
+	padding-top: 25px;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -478,7 +478,7 @@ ol {
 	left: 0;
 	top: 70px;
 	width: 180px;
-	background: #e4381C;
+	background: rgb(255, 254, 254);
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transition: all 0.3s;
@@ -496,11 +496,11 @@ ol {
 	text-align: left;
 	text-transform: capitalize;
 	padding: 10px 20px;
-	color: #ffffff;
+	color: #000000;
 }
 
 .nav-menu .mainmenu ul li .dropdown li a:hover {
-	color: #151515;
+	color: #05c5b5;  /*เปลี่ยนสี sub menu ตอนชี้*/
 }
 
 .nav-menu .mainmenu ul li .dropdown li a:hover:after {

@@ -18,7 +18,7 @@
     
 </head>
 <body background = "img/da-background.jpg">
-<nav class="navbar navbar-expand-lg navbar-dark static-top" style='background-color: #5499C7;' >
+<nav class="navbar navbar-expand-lg navbar-dark static-top" style='background-color: #6699FF;' >
   <div class="container">
     <a class="navbar-brand" href="index.php">
           <img src="img/predict.png" alt="" height="70" width="200" align = "left">

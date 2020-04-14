@@ -1,6 +1,11 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 
+<?php
+    session_start(); //นำไปใส่ทุกหน้าที่เเก้ Userna
+    $Status1 = $_SESSION["Status"];
+?>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -52,14 +57,22 @@
                                 <nav>
                                     <ul id="navigation">
                                         
-                                        <li><a href="index.html">หน้าแรก</a></li>
-                                        <li><a href="#"> ชื่อผู้ใช้ <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="logout.php">ออกจากระบบ</a></li>
-                                               
-                                            </ul>
+                                        <li><a href="index.php">หน้าแรก</a></li>
+                                        
 
-                                       
+                                            <?php
+                    
+                    if(isset($_SESSION["FirstName"])){//แก้ทุกหน้า username
+                ?>
+                <li><a href="index.php"><?php echo $_SESSION["FirstName"] ?> <i class="ti-angle-down"></i> </a>
+                    <ul class="submenu">
+                        <li><a href="logout.php">ลงชื่อออก</a></li>
+                        
+                    </ul>
+                </li>
+                <?php
+                    }
+                ?>
 
                                 
                                     </ul>

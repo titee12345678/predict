@@ -54,7 +54,7 @@
     
 </head>
 
-<body  background="img/hero-slider/logo2.jpg">
+<body  background="img/registerbg2.jpg">
     
     
     <!-- Page Preloder -->

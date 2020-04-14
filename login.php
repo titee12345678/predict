@@ -53,7 +53,7 @@
                             <div class="value">
                                 <div class="input-group">
                                     <input class="input--style-5" type="text" name="username">
-                                    <label class="label--desc">*</label>
+                                    <label class="label--desc"><font color="#FF0000"><strong>*</strong></font></label>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +63,7 @@
                             <div class="value">
                                 <div class="input-group">
                                     <input class="input--style-5" type="password" name="password">
-                                    <label class="label--desc">*</label>
+                                    <label class="label--desc"><font color="#FF0000"><strong>*</strong></font></label>
                                 </div>
                             </div>
                         </div>
@@ -71,12 +71,12 @@
                             <div class="name">โรงเรียน</div>
                             <div class="value">
                                 <div class="input-group">
-                                    <select name = "school">
+                                    <select class="input--style-5" name = "school" style="width:100%; height:42px;">
                                     <?php while($row = mysqli_fetch_assoc($result)) {?>
                                         <option value="<?php echo $row['SchoolName']?>"><?php echo $row['SchoolName']?></option>
                                     <?php }?>
                                     </select>
-                                    <label class="label--desc">*</label>
+                                    <label class="label--desc"><font color="#FF0000"><strong>*</strong></font></label>
                                 </div>
                             </div>
                         </div>
